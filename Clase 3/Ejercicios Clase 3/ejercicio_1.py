@@ -4,8 +4,9 @@
 # Ejemplo: ["2021-01-31"] deberá escribir "Enero" en el archivo
 # Para resolver el ejercicio deberá investigar sobre la librería "datetime", standard de Python
 
+# TODO: modificar la función anterior para que utilice el archivo si ya existe, en vez de crearlo de nuevo.
+
 from datetime import date
-import os
 
 fechas = []
 # Ruta del archivo de salida
