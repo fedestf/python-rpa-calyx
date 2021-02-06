@@ -9,7 +9,7 @@ import os
 
 fechas = []
 # Ruta del archivo de salida
-ruta_y_nombre = r"C:\Users\Federico\Documents\GitHub\python-rpa-calyx\Clase 3\Ejercicios Clase 3\nombre_de_meses.txt"
+ruta_y_nombre = r"C:\Users\Federico\Documents\GitHub\python-rpa-calyx\Clase 3\Ejercicios Clase 3\salida_ejercicio_1.txt"
 
 
 def carga_lista_fechas(año, mes, dia):
