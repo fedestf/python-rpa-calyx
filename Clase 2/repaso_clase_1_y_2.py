@@ -72,6 +72,9 @@ lista_resultado = []
 for key in diccionario["acciones"]:  # Accedo a las keys del diccionario acciones
     # con las keys del diccionario acciones paso el valor de los datos que tienen la misma key
     lista_resultado.append(
-        (diccionario["acciones"][key](diccionario["datos"][key])))
+
+        diccionario["acciones"][key](diccionario["datos"][key])
+    )
+
 
 print(lista_resultado)
