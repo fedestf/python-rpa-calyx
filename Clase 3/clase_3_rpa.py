@@ -1,7 +1,9 @@
 # Archivos
 # Manera correcta de abrir un archivo with open(ruta, modo) as file:
+
 with open("example_clase3.txt", "a+") as file:
     file.write("\n kkkkkkkkkkkk")
+
 
 # Excepciones funciones: TRACBACK,raise,assert
 # Dentro de un for siempre considerar si considero un try y un except
