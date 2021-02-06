@@ -1,5 +1,6 @@
 # Archivos
 # Manera correcta de abrir un archivo with open(ruta, modo) as file:
+import numpy as np
 
 with open("example_clase3.txt", "a+") as file:
     file.write("\n kkkkkkkkkkkk")
