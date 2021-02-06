@@ -1,7 +1,7 @@
 # Archivos
 # Manera correcta de abrir un archivo with open(ruta, modo) as file:
 
-with open("example_clase3.txt", "a+") as file:
+with open(r"C:\Users\Federico\Documents\GitHub\python-rpa-calyx\Clase 3\example_clase3.txt", "a+") as file:
     file.write("\n kkkkkkkkkkkk")
 
 
@@ -9,7 +9,7 @@ with open("example_clase3.txt", "a+") as file:
 # Dentro de un for siempre considerar si considero un try y un except
 
 
-with open("example_clase3.txt", "r") as file:
+with open(r"C:\Users\Federico\Documents\GitHub\python-rpa-calyx\Clase 3\example_clase3.txt", "r") as file:
     try:
         # Fuerzo pasando el "asd" y la excepcion me imprime "error"
         print(file.read(""))
