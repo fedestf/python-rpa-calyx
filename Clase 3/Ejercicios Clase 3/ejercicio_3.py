@@ -1,7 +1,6 @@
 # TODO: crear una función que dado un patrón busque todos los archivos que cumplan dicho patrón y los elimine
 # Dicha función debe poder ejecutarse dos veces sin problemas
 # Para resolver el ejercicio deberá investigar sobre las librerías "glob" y "os"
-import os.path
 import glob
 import os as file
 from os import remove
@@ -16,5 +15,8 @@ for txt in lista_txt:
     try:
         file.remove(txt)
     except:
-        # Preguntar porque no entra a la excepcion
+        # Preguntar porque no entra a la excepcion en la segunda vuelta
         print("Los archivos no existen")
+
+for txt in lista_txt:
+    print(txt)
