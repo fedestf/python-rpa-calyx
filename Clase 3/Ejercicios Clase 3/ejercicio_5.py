@@ -5,8 +5,7 @@ import os
 import datetime
 from datetime import date
 
-# nombre_carpeta = os.path.join(fecha.today())
-
+# directorio_con_subdirectorios=r'C:\Users\fedestf\Desktop\asd1\asd2\asd3' prueba sobre subdirectorios
 direccion = r'C:\Users\fedestf\Desktop'
 
 
@@ -14,8 +13,8 @@ def crear_carpeta(ruta):
 
     directorio = os.path.join(ruta, str(date.today()))
 
-    if not os.path.exists(directorio):
-        # Crea todos los sub directorios necesarios si no existe
+    if not os.path.exists(directorio):  # si no existe el directorio
+        # Crea la carpeta o todos los sub directorios necesarios si no existe
         os.makedirs(directorio)
 
 
