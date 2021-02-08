@@ -33,9 +33,6 @@ def mover_archivo(origen, destino):
             print("El directorio contiene una carpeta : \n "+str(e))
             print("Los demas archivos ya se han movido")
 
-    if cantidad_archivos == (len(archivos_filtrados)):
-        print("Se han movido correctamente todos los archivos")
-
 
 mover_archivo(origen, destino)
 
