@@ -7,7 +7,7 @@ from datetime import date
 
 # nombre_carpeta = os.path.join(fecha.today())
 
-direccion = r'C: \Users\fedestf\Desktop'
+direccion = r'C:\Users\fedestf\Desktop'
 
 
 def crear_carpeta(ruta):
