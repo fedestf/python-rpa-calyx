@@ -7,40 +7,52 @@ import os
 import shutil
 
 
-ruta_analisis_extension = r'C:\Users\Federico\Desktop\Python RPA Calyx\*.py'
 origen = r'C:\Users\Federico\Desktop\Python RPA Calyx'
 destino = r'C:\Users\Federico\Desktop\Python RPA Calyx\test'
-lista_txt = []  # glob.glob(ruta_analisis_extension)
 
 
-test = os.path.splitext(origen)
-print(test[0], test[1])
+def mover_archivo(origen, destino):
 
-# for archivo in archivos_en_directorio:
-#     lista_txt.append(archivo)
+    archivos_en_directorio = os.listdir(origen)
+    archivos_en_directorio_destino = os.listdir(destino)
+    archivos_filtrados = []
+    cantidad_archivos = 0
+
+    for archivo in archivos_en_directorio:
+
+        try:
+
+            if archivo.endswith('.py'):  # Filtro por extension
+                archivos_filtrados.append(archivo)
+                src = os.path.join(origen, archivo)
+                dst = os.path.join(destino, archivo)
+                shutil.move(src, dst)
+                cantidad_archivos += 1
+                print("Se movio correctamente el archivo : ", archivo)
+
+        except Exception as e:  # Esta excepcion es arrojada si no filtro por extension
+            print("El directorio contiene una carpeta : \n "+str(e))
+            print("Los demas archivos ya se han movido")
+
+    if cantidad_archivos == (len(archivos_filtrados)):
+        print("Se han movido correctamente todos los archivos")
+
+
+mover_archivo(origen, destino)
+
 
 # for archivo in archivos_en_directorio:
 
 #     try:
+
 #         src = os.path.join(origen, archivo)
 #         dst = os.path.join(destino, archivo)
-#         shutil.copy2(src, dst)
-#         print("Correcto")
+#         shutil.move(src, dst)
+#         print("Se movio correctamente el archivo : ", archivo)
+
 #     except Exception as e:
-#         print(e)
-#         # print("Falló")
-#         # print("Error, no se pudo copiar el archivo. Verifique los permisos de escritura")
 
-for txt in lista_txt:
-    try:
-        src = os.path.join(origen, txt)
-        dst = os.path.join(destino, txt)
-        shutil.copy(src, dst)
-        print("Archivo ok")
-    except:
-        # Preguntar porque no entra a la excepcion en la segunda vuelta
-        print("Los archivos no existen")
+#         print("El directorio contiene una carpeta : \n "+str(e))
+#         print("Los demas archivos ya se han movido")
 
-# Pedir explicaicon
-
-# https://micro.recursospython.com/recursos/como-copiar-o-mover-un-archivo.html
+# https://docs.python.org/es/3/library/shutil.html
