@@ -14,7 +14,6 @@ destino = r'C:\Users\Federico\Desktop\Python RPA Calyx\test'
 def mover_archivo(origen, destino):
 
     archivos_en_directorio = os.listdir(origen)
-    archivos_en_directorio_destino = os.listdir(destino)
     archivos_filtrados = []
     cantidad_archivos = 0
 
