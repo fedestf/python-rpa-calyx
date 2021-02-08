@@ -40,3 +40,7 @@ for txt in lista_txt:
     except:
         # Preguntar porque no entra a la excepcion en la segunda vuelta
         print("Los archivos no existen")
+
+# Pedir explicaicon
+
+# https://micro.recursospython.com/recursos/como-copiar-o-mover-un-archivo.html
