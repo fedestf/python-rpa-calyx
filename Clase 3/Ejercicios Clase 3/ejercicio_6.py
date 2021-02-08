@@ -1,21 +1,25 @@
 # TODO: crear una función que reciba la función dummy (y sus parámetros) e imprima por pantalla
 # El tiepmo que demoró en ejecutar dicha función
 # Para resolver el ejercicio deberá utilizar la librería "time"
-
+from datetime import datetime
 import time
 
 
 def dummy(time_to_sleep):
 
     for i in range(10):
-        # por cada iteración el script "duerme" durante
-        # el tiempo indicado en "time_to_sleep"
+
         time.sleep(time_to_sleep)
 
 
-def funcion_dormir(tiempo):
+def calculo_tiempo_dummy(tiempo_dummy):
+    tiempo_inicial = datetime.now()
 
-    print(dummy(tiempo))
+    dummy(tiempo_dummy)
+
+    tiempo_final = datetime.now()
+
+    print(tiempo_final - tiempo_inicial)
 
 
-funcion_dormir(10)
+calculo_tiempo_dummy(1)
