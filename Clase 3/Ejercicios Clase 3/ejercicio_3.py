@@ -15,6 +15,7 @@ lista_txt = glob.glob(ruta)
 for txt in lista_txt:
     try:
         file.remove(txt)
+
     except:
         # Preguntar porque no entra a la excepcion en la segunda vuelta
         print("Los archivos no existen")
