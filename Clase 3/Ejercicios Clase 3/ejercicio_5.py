@@ -6,18 +6,17 @@ import datetime
 from datetime import date
 
 # nombre_carpeta = os.path.join(fecha.today())
-# directorio = os.path.join(
-#    r'C:\Users\fedestf\Desktop', str(date.today()))
+
+direccion = r'C: \Users\fedestf\Desktop'
 
 
-def crear_carpeta():
+def crear_carpeta(ruta):
 
-    directorio = os.path.join(
-        r'C:\Users\fedestf\Desktop', str(date.today()))
+    directorio = os.path.join(ruta, str(date.today()))
 
     if not os.path.exists(directorio):
+        # Crea todos los sub directorios necesarios si no existe
         os.makedirs(directorio)
 
 
-# if directorio in r'C:\Users\fedestf\Desktop':
-#    print("la carpeta ya existe")
+crear_carpeta(direccion)
