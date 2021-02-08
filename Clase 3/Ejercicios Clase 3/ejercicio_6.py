@@ -13,6 +13,7 @@ def dummy(time_to_sleep):
 
 
 def calculo_tiempo_dummy(tiempo_dummy):
+
     tiempo_inicial = datetime.now()
 
     dummy(tiempo_dummy)
