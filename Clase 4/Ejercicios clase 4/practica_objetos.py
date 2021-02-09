@@ -65,7 +65,7 @@ class Curso(Profesor, Alumno):
 
     def __init__(self, Profesor, Alumno, nombre_curso, horario, modo):
 
-        # (Clase, 'nombre de atributo')
+        # getattr(Clase, 'nombre de atributo')
         self.profesor_nombre = getattr(Profesor, 'nombre_completo')
         self.alumno_nombre = getattr(Alumno, 'nombre_completo')
         self.nombre_curso = nombre_curso
