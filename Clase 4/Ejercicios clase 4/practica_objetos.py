@@ -75,6 +75,7 @@ class Curso():
         self.alumnos = alumnos
 
     def mostrar_curso(self):
+
         print(f"{self.nombre_curso}\n {self.horario} \n {self.modo}\n el curso es dictado por: {self.profesor_nombre}\n alumnos : {self.nombres_alumnos()}")
 
     def nombres_alumnos(self):
@@ -91,3 +92,7 @@ curso2 = Curso(profesor2, [alumno1, alumno2],
                "TESTEANDO ANDO", "Noche", "Presencial")
 curso1.mostrar_curso()
 curso2.mostrar_curso()
+
+# Super().__init__() en los metodos para heredar el metodo y agregar funcionalidad
+# @staticmethod son funciones auxiliares
+# @classmethod afecta a todas las instancias de la clase
