@@ -33,7 +33,8 @@ class Profesor(DatosPersonales):
 
     def __init__(self, nombre, apellido, edad, dni, lenguaje):
 
-        DatosPersonales.__init__(self, nombre, apellido, edad, dni)
+        #DatosPersonales.__init__(self, nombre, apellido, edad, dni)
+        super().__init__(nombre, apellido, edad, dni)
         self.lenguaje = lenguaje
 
     def saludar(self):
@@ -46,7 +47,8 @@ class Alumno(DatosPersonales):
 
     def __init__(self, nombre, apellido, edad, dni, legajo, turno):
 
-        DatosPersonales.__init__(self, nombre, apellido, edad, dni)
+        #DatosPersonales.__init__(self, nombre, apellido, edad, dni)
+        super().__init__(nombre, apellido, edad, dni)
         self.legajo = legajo
         self.turno = turno
 
@@ -61,29 +63,31 @@ class Alumno(DatosPersonales):
         print(f"El alumno {self.nombre_completo} dice HOLA")
 
 
-class Curso(Profesor, Alumno):
+class Curso():
 
-    def __init__(self, Profesor, Alumno, nombre_curso, horario, modo):
+    def __init__(self, profesor, alumnos, nombre_curso, horario, modo):
 
         # getattr(Clase, 'nombre de atributo')
-        self.profesor_nombre = getattr(Profesor, 'nombre_completo')
-        self.alumno_nombre = getattr(Alumno, 'nombre_completo')
+        self.profesor_nombre = profesor.nombre_completo
         self.nombre_curso = nombre_curso
         self.horario = horario
         self.modo = modo
+        self.alumnos = alumnos
 
     def mostrar_curso(self):
+        print(f"{self.nombre_curso}\n {self.horario} \n {self.modo}\n el curso es dictado por: {self.profesor_nombre}\n alumnos : {self.nombres_alumnos()}")
 
-        print(f"{self.nombre_curso}\n {self.horario} \n {self.modo}\n el curso es dictado por: {self.profesor_nombre}\n alumno : {self.alumno_nombre}")
+    def nombres_alumnos(self):
+        return ', '.join([alumno.nombre_completo for alumno in self.alumnos])
 
 
 alumno1 = Alumno("Roberto", "Rodriguez", 80, 10254124, "8059-F", "Tarde")
 profesor1 = Profesor("Pepe", "Pompin", 80, 8888888, "Python")
-curso1 = Curso(profesor1, alumno1, "Calyx Python RPA", "Tarde", "Virtual")
+curso1 = Curso(profesor1, [alumno1], "Calyx Python RPA", "Tarde", "Virtual")
 
 alumno2 = Alumno("Jorge", "testing", 80, 12445, "85055-F", "noche")
 profesor2 = Profesor("Olof", "zonic", 80, 000000, "java")
-curso2 = Curso(profesor2, alumno2, "TESTEANDO ANDO", "Noche", "Presencial")
-
+curso2 = Curso(profesor2, [alumno1, alumno2],
+               "TESTEANDO ANDO", "Noche", "Presencial")
 curso1.mostrar_curso()
 curso2.mostrar_curso()
