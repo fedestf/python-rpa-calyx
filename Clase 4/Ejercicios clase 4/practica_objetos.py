@@ -93,6 +93,8 @@ curso2 = Curso(profesor2, [alumno1, alumno2],
 curso1.mostrar_curso()
 curso2.mostrar_curso()
 
+profesor2.saludar()
+
 # Super().__init__() en los metodos para heredar el metodo y agregar funcionalidad
 # @staticmethod son funciones auxiliares
 # @classmethod afecta a todas las instancias de la clase
