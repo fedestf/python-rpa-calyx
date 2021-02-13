@@ -1,5 +1,13 @@
-ERROR : 2021-02-12 23:28:22,183 - No se puede sumar 
+
+ERROR : 2021-02-12 23:50:20,261 - unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 2021-02-12 23:50:49,166 - unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 2021-02-12 23:51:48,888 - unsupported operand type(s) for +: 'int' and 'str'
 Traceback (most recent call last):
-  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\libreria_logging.py", line 37, in <module>
-    "andrea"+123
-TypeError: can only concatenate str (not "int") to str
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 8, in <module>
+    1+"sss"
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 2021-02-12 23:54:20,103 - unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 8, in <module>
+    1+"sss"
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
