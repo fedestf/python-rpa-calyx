@@ -1,0 +1,10 @@
+DEBUG : 13-02-2021 20:22:16.548 -  [<module>]- 123+3 = 126
+DEBUG : 13-02-2021 20:22:16.548 -  [suma_prueba]- 2+2 = 4 
+DEBUG : 13-02-2021 20:22:16.548 -  [contar_hasta_10]- Se ejecuto bien en la posicion 1 
+DEBUG : 13-02-2021 20:22:16.548 -  [contar_hasta_10]- Se ejecuto bien en la posicion 2 
+DEBUG : 13-02-2021 20:22:16.548 -  [contar_hasta_10]- Se ejecuto bien en la posicion 3 
+DEBUG : 13-02-2021 20:22:16.548 -  [contar_hasta_10]- Se ejecuto bien en la posicion 4 
+DEBUG : 13-02-2021 20:22:16.548 -  [contar_hasta_10]- Se ejecuto bien en la posicion 6 
+DEBUG : 13-02-2021 20:22:16.549 -  [contar_hasta_10]- Se ejecuto bien en la posicion 8 
+DEBUG : 13-02-2021 20:22:16.549 -  [contar_hasta_10]- Se ejecuto bien en la posicion 9 
+DEBUG : 13-02-2021 20:22:16.549 -  [contar_hasta_10]- Se ejecuto bien en la posicion 10 
