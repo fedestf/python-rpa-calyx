@@ -1,31 +1,55 @@
-
-DEBUG : 13-02-2021 03:37:00.711 -  [debug_test]- Se ejecuto bien hasta
-DEBUG : 13-02-2021 03:37:00.712 -  [debug_test]- Se ejecuto bien hasta
-DEBUG : 13-02-2021 03:37:00.712 -  [debug_test]- Se ejecuto bien hasta
-DEBUG : 13-02-2021 03:37:00.713 -  [debug_test]- Se ejecuto bien hasta
-DEBUG : 13-02-2021 03:37:00.713 -  [debug_test]- Se ejecuto bien hasta
-DEBUG : 13-02-2021 03:37:00.713 -  [debug_test]- Se ejecuto bien hasta
-DEBUG : 13-02-2021 03:38:30.353 -  [debug_test]- Se ejecuto bien hasta GASasA 
-DEBUG : 13-02-2021 03:38:30.354 -  [debug_test]- Se ejecuto bien hasta GASasA 
-DEBUG : 13-02-2021 03:38:30.354 -  [debug_test]- Se ejecuto bien hasta GASasA 
-DEBUG : 13-02-2021 03:38:30.355 -  [debug_test]- Se ejecuto bien hasta GASasA 
-DEBUG : 13-02-2021 03:38:30.355 -  [debug_test]- Se ejecuto bien hasta GASasA 
-DEBUG : 13-02-2021 03:38:30.355 -  [debug_test]- Se ejecuto bien hasta GASasA 
-DEBUG : 13-02-2021 03:39:33.627 -  [debug_test]- Se ejecuto bien hasta <built-in method index of str object at 0x0000023122EABEF0> 
-DEBUG : 13-02-2021 03:39:33.627 -  [debug_test]- Se ejecuto bien hasta <built-in method index of str object at 0x0000023122EABEF0> 
-DEBUG : 13-02-2021 03:39:33.627 -  [debug_test]- Se ejecuto bien hasta <built-in method index of str object at 0x0000023122EABEF0> 
-DEBUG : 13-02-2021 03:39:33.629 -  [debug_test]- Se ejecuto bien hasta <built-in method index of str object at 0x0000023122EABEF0> 
-DEBUG : 13-02-2021 03:39:33.629 -  [debug_test]- Se ejecuto bien hasta <built-in method index of str object at 0x0000023122EABEF0> 
-DEBUG : 13-02-2021 03:39:33.629 -  [debug_test]- Se ejecuto bien hasta <built-in method index of str object at 0x0000023122EABEF0> 
-DEBUG : 13-02-2021 03:41:47.827 -  [debug_test]- Se ejecuto bien hasta G 
-DEBUG : 13-02-2021 03:41:47.827 -  [debug_test]- Se ejecuto bien hasta G 
-DEBUG : 13-02-2021 03:41:47.827 -  [debug_test]- Se ejecuto bien hasta G 
-DEBUG : 13-02-2021 03:41:47.829 -  [debug_test]- Se ejecuto bien hasta G 
-DEBUG : 13-02-2021 03:41:47.829 -  [debug_test]- Se ejecuto bien hasta G 
-DEBUG : 13-02-2021 03:41:47.829 -  [debug_test]- Se ejecuto bien hasta G 
-DEBUG : 13-02-2021 03:49:21.288 -  [debug_test]- Se ejecuto bien hasta G 
-DEBUG : 13-02-2021 03:49:21.299 -  [debug_test]- Se ejecuto bien hasta G 
-DEBUG : 13-02-2021 03:49:21.299 -  [debug_test]- Se ejecuto bien hasta G 
-DEBUG : 13-02-2021 03:49:21.300 -  [debug_test]- Se ejecuto bien hasta G 
-DEBUG : 13-02-2021 03:49:21.300 -  [debug_test]- Se ejecuto bien hasta G 
-DEBUG : 13-02-2021 03:49:21.300 -  [debug_test]- Se ejecuto bien hasta G 
+DEBUG : 13-02-2021 03:53:23.684 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.685 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.685 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.685 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.685 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.685 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.685 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.685 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.685 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.685 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.686 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
+DEBUG : 13-02-2021 03:53:23.687 -  [debug_test]- TA ARRANCANDO LA NAVE
