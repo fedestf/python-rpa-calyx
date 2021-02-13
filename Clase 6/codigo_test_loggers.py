@@ -1,36 +1,44 @@
-from libreria_logging import debug_test, error_test
+from libreria_logging import logger_error, logger_debug
 
 try:
     1+"sss"
-    debug_test("Ejecutado correctamente")
+    logger_debug.debug("Ejecucion correcta")
+
 except Exception as e:
-    error_test(e)
+    logger_error.exception(e)
 
 try:
-    1+2
-    debug_test("VAPAI")
+    resultado = 123+3
+    logger_debug.debug("{}+{} = {}".format(123, 3, resultado))
+
 except Exception as e:
-    error_test(e)
+    logger_error.exception(e)
 
 
 def suma_prueba(num1, num2):
     try:
         resultado = num1 + num2
-        debug_test("asdadasd")
+        logger_debug.debug("{}+{} = {} ".format(num1, num2, resultado))
         return resultado
     except Exception as e:
-        error_test(e)
+        logger_error.exception(e)
 
 
 suma_prueba(2, 2)
 
-# lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+lista = [1, 2, 3, 4, "k", 6, "7", 8, 9, 10]
 
-# for i in lista:
-#     try:
-#         print(i+"s")
-#         debug_test("Se ejecuto bien hasta {} ".format(i))
-#     except Exception as e:
-#         error_test(e)
+
+def contar_hasta_10(lista):
+
+    for i in lista:
+        try:
+            print(i+1)
+            logger_debug.debug("Se ejecuto bien en la posicion {} ".format(i))
+        except Exception as e:
+            logger_error.exception(e)
+
+
+contar_hasta_10(lista)
 
 # Preguntar porque empieza a escribir mas de una vez las cosas cuando deberia escribirla solamente una vez
