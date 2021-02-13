@@ -1,1 +1,76 @@
 
+ERROR : 13-02-2021 03:49:21.273 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.298 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.298 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.299 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.299 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.299 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.299 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.299 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.299 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.299 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.300 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.300 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.300 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.300 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 03:49:21.300 -  [error_test]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 30, in <module>
+    print(elemento+"KK")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
