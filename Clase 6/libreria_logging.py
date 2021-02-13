@@ -57,9 +57,6 @@ ruta = os.path.join(carpeta_debug,
 logger_debug = logging.getLogger("test_debug")
 file_hand = logging.FileHandler(ruta)
 
-format_hand = logging.Formatter(
-    '%(levelname)s : %(asctime)s.%(msecs)03d -  [%(funcName)s]- %(message)s', "%d-%m-%Y %H:%M:%S")
-
-file_hand.setFormatter(format_hand)
+file_hand.setFormatter(format_hand)  # Reutilizo el formatter
 logger_debug.addHandler(file_hand)
 logger_debug.setLevel(logging.DEBUG)
