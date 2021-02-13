@@ -17,53 +17,49 @@ from datetime import date
 
 # ruta = os.path.join(carpeta, date.today().strftime("%d-%m-%Y")+".txt")
 
-# logger_custom.info("INFO")
-# logger_custom.debug("DEBUG")
-# logger_custom.critical("CRITICAL")
-# logger_custom.error("ERROR")
-# logger_custom.warning("WARNING")
+# logger_debug.info("INFO")
+# logger_debug.debug("DEBUG")
+# logger_debug.critical("CRITICAL")
+# logger_debug.error("ERROR")
+# logger_debug.warning("WARNING")
 
 # ----------------------TEST ERROR-------------------------
-def error_test(error):
 
-    carpeta_error = os.path.join(RUTA, "Error")
-    if not os.path.exists(carpeta_error):
-        os.makedirs(carpeta_error)
+carpeta_error = os.path.join(RUTA, "Error")
 
-    ruta = os.path.join(carpeta_error,
-                        date.today().strftime("%d-%m-%Y") + ".txt")
+if not os.path.exists(carpeta_error):
+    os.makedirs(carpeta_error)
 
-    logger_custom = logging.getLogger("test_error")
-    file_hand = logging.FileHandler(ruta)
+ruta = os.path.join(carpeta_error,
+                    date.today().strftime("%d-%m-%Y") + ".txt")
 
-    format_hand = logging.Formatter(
-        '%(levelname)s : %(asctime)s.%(msecs)03d -  [%(funcName)s]- %(message)s', "%d-%m-%Y %H:%M:%S")
+logger_error = logging.getLogger("test_error")
+file_hand = logging.FileHandler(ruta)
 
-    file_hand.setFormatter(format_hand)
-    logger_custom.addHandler(file_hand)
-    logger_custom.exception(error)
+format_hand = logging.Formatter(
+    '%(levelname)s : %(asctime)s.%(msecs)03d -  [%(funcName)s]- %(message)s', "%d-%m-%Y %H:%M:%S")
+
+file_hand.setFormatter(format_hand)
+logger_error.addHandler(file_hand)
 
 
 # ---------------------TEST DEBUG--------------------------------------
 
 
-def debug_test(mensaje):
+carpeta_debug = os.path.join(RUTA, "Debug")
 
-    carpeta_debug = os.path.join(RUTA, "Debug")
+if not os.path.exists(carpeta_debug):
+    os.makedirs(carpeta_debug)
 
-    if not os.path.exists(carpeta_debug):
-        os.makedirs(carpeta_debug)
+ruta = os.path.join(carpeta_debug,
+                    date.today().strftime("%d-%m-%Y") + ".txt")
 
-    ruta = os.path.join(carpeta_debug,
-                        date.today().strftime("%d-%m-%Y") + ".txt")
+logger_debug = logging.getLogger("test_debug")
+file_hand = logging.FileHandler(ruta)
 
-    logger_custom = logging.getLogger("test_debug")
-    file_hand = logging.FileHandler(ruta)
+format_hand = logging.Formatter(
+    '%(levelname)s : %(asctime)s.%(msecs)03d -  [%(funcName)s]- %(message)s', "%d-%m-%Y %H:%M:%S")
 
-    format_hand = logging.Formatter(
-        '%(levelname)s : %(asctime)s.%(msecs)03d -  [%(funcName)s]- %(message)s', "%d-%m-%Y %H:%M:%S")
-
-    file_hand.setFormatter(format_hand)
-    logger_custom.addHandler(file_hand)
-    logger_custom.setLevel(logging.DEBUG)
-    logger_custom.debug(mensaje)
+file_hand.setFormatter(format_hand)
+logger_debug.addHandler(file_hand)
+logger_debug.setLevel(logging.DEBUG)
