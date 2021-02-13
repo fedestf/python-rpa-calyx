@@ -11,41 +11,47 @@ from datetime import date
 
 # Creo subdirectorio (en caso de que no exista) a partir de la ruta de logs definida en settings
 # carpeta_error = os.path.join(RUTA, "Error")
-carpeta_error = os.path.join(RUTA, "Error")
-if not os.path.exists(carpeta_error):
-    os.makedirs(carpeta_error)
 
-# Declaro la ruta  y el nombre del archivo para pasarlo al file handler
-# Ahora mi ruta es carpeta
+# # Declaro la ruta  y el nombre del archivo para pasarlo al file handler
+# # Ahora mi ruta es carpeta
+def error_test(error):
 
-ruta = os.path.join(carpeta_error, str(date.today()))
-logger_custom = logging.getLogger("test_custom")
-file_hand = logging.FileHandler(ruta)
-format_hand = logging.Formatter('%(levelname)s : %(asctime)s - %(message)s')
-file_hand.setFormatter(format_hand)
-logger_custom.addHandler(file_hand)
+    carpeta_error = os.path.join(RUTA, "Error")
+    if not os.path.exists(carpeta_error):
+        os.makedirs(carpeta_error)
 
-try:
-    "andrea"+123
-except Exception as e:
-    logger_custom.exception("No se puede sumar ")
+    ruta = os.path.join(carpeta_error, str(date.today()))
+    logger_custom = logging.getLogger("test_custom")
+    file_hand = logging.FileHandler(ruta)
+    format_hand = logging.Formatter(
+        '%(levelname)s : %(asctime)s - %(message)s')
+    file_hand.setFormatter(format_hand)
+    logger_custom.addHandler(file_hand)
+    logger_custom.exception(error)
+
 
 # ---------------------TEST DEBUG--------------------------------------
-carpeta_debug = os.path.join(RUTA, "Debug")
 
-if not os.path.exists(carpeta_debug):
-    os.makedirs(carpeta_debug)
 
-ruta = os.path.join(carpeta_debug, str(date.today()))
-logger_custom = logging.getLogger("test_debug")
-file_hand = logging.FileHandler(ruta)
-format_hand = logging.Formatter('%(levelname)s : %(asctime)s - %(message)s')
-file_hand.setFormatter(format_hand)
-logger_custom.addHandler(file_hand)
-logger_custom.setLevel(logging.DEBUG)
+def debug_test(mensaje):
+    carpeta_debug = os.path.join(RUTA, "Debug")
 
-logger_custom.info("INFO")
-logger_custom.debug("DEBUG")
-logger_custom.critical("CRITICAL")
-logger_custom.error("ERROR")
-logger_custom.warning("WARNING")
+    if not os.path.exists(carpeta_debug):
+        os.makedirs(carpeta_debug)
+
+    ruta = os.path.join(carpeta_debug, str(date.today()))
+    logger_custom = logging.getLogger("test_debug")
+    file_hand = logging.FileHandler(ruta)
+    format_hand = logging.Formatter(
+        '%(levelname)s : %(asctime)s - %(message)s')
+    file_hand.setFormatter(format_hand)
+    logger_custom.addHandler(file_hand)
+    logger_custom.setLevel(logging.DEBUG)
+    logger_custom.debug(mensaje)
+
+
+# logger_custom.info("INFO")
+# logger_custom.debug("DEBUG")
+# logger_custom.critical("CRITICAL")
+# logger_custom.error("ERROR")
+# logger_custom.warning("WARNING")
