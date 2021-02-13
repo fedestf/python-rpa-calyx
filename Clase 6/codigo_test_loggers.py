@@ -40,5 +40,3 @@ def contar_hasta_10(lista):
 
 
 contar_hasta_10(lista)
-
-# Preguntar porque empieza a escribir mas de una vez las cosas cuando deberia escribirla solamente una vez
