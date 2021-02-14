@@ -20,13 +20,17 @@ df_ps = df[df["console"] == "PS"][["console", "title",
                                    "genre", "publisher"]]
 
 # traigo los que estan en ambos
-df_test = df_accion.merge(df_sandbox, on="title")
-#df_test = df_accion.merge(df_sandbox, on=["console"]["pc"])
+# df_test = df_accion.join(df_sandbox, on=["console"])
+# df_test = df_accion.merge(df_sandbox, on=["console"]["pc"])
 
-df_test.to_excel(
-    r'C:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 5\test.xlsx', index=False)
+str_df_accion = df_accion.to_string()
 
-print(df_test)
+# df_test.to_excel(
+#     r'C:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 5\test.xlsx', index=False)
+dfstr = df_sandbox[["console"]].to_string()  # convertir dataframe a string
+#df_sandbox[['title']] = df_sandbox[['title']].astype(str)
+
+print(str_df_accion)
 
 # result = pd.merge(user_usage,
 #                  user_device[['use_id', 'platform', 'device']],
