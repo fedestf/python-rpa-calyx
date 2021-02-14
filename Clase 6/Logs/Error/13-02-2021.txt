@@ -1,15 +1,15 @@
-ERROR : 13-02-2021 20:22:16.548 -  [<module>]- unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 13-02-2021 21:18:06.592 -  [<module>]- unsupported operand type(s) for +: 'int' and 'str'
 Traceback (most recent call last):
   File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 4, in <module>
     1+"sss"
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
-ERROR : 13-02-2021 20:22:16.548 -  [contar_hasta_10]- can only concatenate str (not "int") to str
+ERROR : 13-02-2021 21:18:06.593 -  [sumar_elem_test]- can only concatenate str (not "int") to str
 Traceback (most recent call last):
-  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 36, in contar_hasta_10
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 37, in sumar_elem_test
     print(i+1)
 TypeError: can only concatenate str (not "int") to str
-ERROR : 13-02-2021 20:22:16.548 -  [contar_hasta_10]- can only concatenate str (not "int") to str
+ERROR : 13-02-2021 21:18:06.593 -  [sumar_elem_test]- can only concatenate str (not "int") to str
 Traceback (most recent call last):
-  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 36, in contar_hasta_10
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 37, in sumar_elem_test
     print(i+1)
 TypeError: can only concatenate str (not "int") to str
