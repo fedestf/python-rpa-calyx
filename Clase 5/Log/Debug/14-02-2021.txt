@@ -1,0 +1,20 @@
+DEBUG : 14-02-2021 20:08:12.964 -  [<module>]- title
+DEBUG : 14-02-2021 20:08:12.964 -  [<module>]- Grand Theft Auto V
+DEBUG : 14-02-2021 20:08:12.964 -  [<module>]- The Binding of Isaac
+DEBUG : 14-02-2021 20:08:12.964 -  [<module>]- Driver
+DEBUG : 14-02-2021 20:08:12.964 -  [<module>]- Metal Gear Solid
+DEBUG : 14-02-2021 20:08:12.964 -  [<module>]- Tomb Raider (2013)
+DEBUG : 14-02-2021 20:08:12.964 -  [<module>]- Resident Evil 2
+DEBUG : 14-02-2021 20:08:12.964 -  [<module>]- Driver 2
+DEBUG : 14-02-2021 20:08:12.965 -  [<module>]- Tomb Raider
+DEBUG : 14-02-2021 20:08:12.965 -  [<module>]- Dead Island
+DEBUG : 14-02-2021 20:08:12.965 -  [<module>]- 7 Days to Die
+DEBUG : 14-02-2021 20:08:12.965 -  [<module>]- Just Cause 2
+DEBUG : 14-02-2021 20:08:12.965 -  [<module>]- Frogger
+DEBUG : 14-02-2021 20:08:12.965 -  [<module>]- Harry Potter and the Sorcerer's Stone
+DEBUG : 14-02-2021 20:08:12.965 -  [<module>]- Diablo III: Reaper of Souls
+DEBUG : 14-02-2021 20:08:12.965 -  [<module>]- Rugrats in Paris: The Movie
+DEBUG : 14-02-2021 20:08:12.965 -  [<module>]- Resident Evil 3: Nemesis
+DEBUG : 14-02-2021 20:08:12.965 -  [<module>]- Dying Light
+DEBUG : 14-02-2021 20:08:12.966 -  [<module>]- Grand Theft Auto 2
+DEBUG : 14-02-2021 20:08:12.966 -  [<module>]- Spider-Man
