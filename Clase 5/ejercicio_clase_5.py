@@ -14,15 +14,19 @@ df_accion = df[df["genre"] == "Action"][[
 df_sandbox = df[df["genre"] == "Sandbox"][[
     "title", "genre", "publisher", "console"]]
 
-df_consola = df[df["console"] == "PC"]
+df_consola = df[df["console"] == "PC"][["console", "title",
+                                        "genre", "publisher"]]
+df_ps = df[df["console"] == "PS"][["console", "title",
+                                   "genre", "publisher"]]
+
+# traigo los que estan en ambos
+df_test = df_accion.merge(df_sandbox, on="title")
 #df_test = df_accion.merge(df_sandbox, on=["console"]["pc"])
 
-df_nuevo = df_accion.merge(
-    df_sandbox, on=["title", "genre", "publisher", "console"])
-# df_test.to_excel(
-#     r'C:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 5\test.xlsx', index=False)
+df_test.to_excel(
+    r'C:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 5\test.xlsx', index=False)
 
-print(df_nuevo)
+print(df_test)
 
 # result = pd.merge(user_usage,
 #                  user_device[['use_id', 'platform', 'device']],
