@@ -40,7 +40,8 @@ wb = load_workbook(
 
 sheet = wb['Sheet1']
 
-for col in sheet.iter_cols():
-    for row in sheet.iter_rows():
-        print(row[0].value)
-    # logger_debug.debug("{}".format(row[0].value))
+cell_range = sheet['A1':'D1428']
+
+for fila in cell_range:
+    print([celda.value for celda in fila])
+    logger_debug.debug("{}".format([celda.value for celda in fila]))
