@@ -4,10 +4,10 @@
 # solamente las columnas: title, genre, publisher, console.
 import pandas as pd
 from logger import logger_debug
-from openpyxl import *
+from openpyxl import load_workbook
 
 df = pd.read_csv(
-    r'C:\Users\Federico\Documents\GitHub\python-rpa-calyx\Clase 5\vgsales.csv')
+    r'Clase 5\vgsales.csv')
 
 
 df_accion = df[df["genre"] == "Action"][[
@@ -29,19 +29,17 @@ df_sandbox_filtrado = df_sandbox.query('console=="PC" or console=="PS"')[
 
 df_concatenado = pd.concat([df_accion_filtrado, df_sandbox_filtrado])
 df_concatenado.to_excel(
-    r'C:\Users\Federico\Documents\GitHub\python-rpa-calyx\Clase 5\datos_salida.xlsx', index=False)
+    r'Clase 5\datos_salida.xlsx', index=False)
 
 
 # Una vez generado el excel, se deberá leer el mismo y loguear
 # la información disponible en cada fila.
 
 wb = load_workbook(
-    r'C:\Users\Federico\Documents\GitHub\python-rpa-calyx\Clase 5\datos_salida.xlsx')
+    r'Clase 5\datos_salida.xlsx')
 
 sheet = wb['Sheet1']
 
-cell_range = sheet['A1':'D1428']
-
 for fila in sheet.iter_rows(min_col=sheet.min_column, max_col=sheet.max_column):
-    print([celda.value for celda in fila])
+
     logger_debug.debug("{}".format([celda.value for celda in fila]))

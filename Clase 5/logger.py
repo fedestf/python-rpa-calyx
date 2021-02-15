@@ -1,8 +1,9 @@
-from datetime import date
-import os
 import logging
+from settings import RUTA
+import os
+from datetime import date
 
-RUTA = r'C:\Users\Federico\Documents\GitHub\python-rpa-calyx\Clase 5\Log'
+
 carpeta_debug = os.path.join(RUTA, "Debug")
 
 if not os.path.exists(carpeta_debug):
