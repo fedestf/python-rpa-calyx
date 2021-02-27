@@ -1,0 +1,15 @@
+ERROR : 26-02-2021 21:05:27.355 -  [<module>]- unsupported operand type(s) for +: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 4, in <module>
+    1+"sss"
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR : 26-02-2021 21:05:27.356 -  [sumar_elem_test]- can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 37, in sumar_elem_test
+    print(i+1)
+TypeError: can only concatenate str (not "int") to str
+ERROR : 26-02-2021 21:05:27.356 -  [sumar_elem_test]- can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "c:\Users\fedestf\Documents\GitHub\python-rpa-calyx\Clase 6\codigo_test_loggers.py", line 37, in sumar_elem_test
+    print(i+1)
+TypeError: can only concatenate str (not "int") to str
