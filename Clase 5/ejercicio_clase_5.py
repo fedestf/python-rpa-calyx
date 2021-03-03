@@ -28,6 +28,7 @@ df_sandbox_filtrado = df_sandbox.query('console=="PC" or console=="PS"')[
     ["title", "console", "genre", "publisher"]]
 
 df_concatenado = pd.concat([df_accion_filtrado, df_sandbox_filtrado])
+
 df_concatenado.to_excel(
     r'Clase 5\datos_salida.xlsx', index=False)
 
