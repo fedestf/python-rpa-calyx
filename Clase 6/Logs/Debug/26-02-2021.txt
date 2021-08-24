@@ -8,3 +8,13 @@ DEBUG : 26-02-2021 21:05:27.356 -  [sumar_elem_test]- Se ejecuto bien en la posi
 DEBUG : 26-02-2021 21:05:27.356 -  [sumar_elem_test]- Se ejecuto bien en la posicion 8 
 DEBUG : 26-02-2021 21:05:27.356 -  [sumar_elem_test]- Se ejecuto bien en la posicion 9 
 DEBUG : 26-02-2021 21:05:27.357 -  [sumar_elem_test]- Se ejecuto bien en la posicion 10 
+DEBUG : 26-02-2021 21:08:44.786 -  [<module>]- 123+3 = 126
+DEBUG : 26-02-2021 21:08:44.786 -  [suma_prueba]- 2+2 = 4 
+DEBUG : 26-02-2021 21:08:44.786 -  [sumar_elem_test]- Se ejecuto bien en la posicion 1 
+DEBUG : 26-02-2021 21:08:44.786 -  [sumar_elem_test]- Se ejecuto bien en la posicion 2 
+DEBUG : 26-02-2021 21:08:44.786 -  [sumar_elem_test]- Se ejecuto bien en la posicion 3 
+DEBUG : 26-02-2021 21:08:44.787 -  [sumar_elem_test]- Se ejecuto bien en la posicion 4 
+DEBUG : 26-02-2021 21:08:44.787 -  [sumar_elem_test]- Se ejecuto bien en la posicion 6 
+DEBUG : 26-02-2021 21:08:44.787 -  [sumar_elem_test]- Se ejecuto bien en la posicion 8 
+DEBUG : 26-02-2021 21:08:44.787 -  [sumar_elem_test]- Se ejecuto bien en la posicion 9 
+DEBUG : 26-02-2021 21:08:44.787 -  [sumar_elem_test]- Se ejecuto bien en la posicion 10 
